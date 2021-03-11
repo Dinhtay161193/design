@@ -1,0 +1,89 @@
+.intro {
+    position: relative;
+    margin: 60px 0;
+    margin-bottom: 526px;
+    &__bg {
+        .img-item {
+            bottom: -350px;
+        }
+        .img-person {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .img-build {
+            position: absolute;
+            left: 50%;
+            width: 100%;
+            height: 342px;
+            transform: translateX(-50%);
+            opacity: 0.1;
+            background-image: url(../../images/build.svg);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .img-line {
+            position: absolute;
+            left: 0;
+            transform: translateY(100%);
+            width: 50%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    &__content {
+        h1 {
+            font-family: SVN-Product Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 72px;
+            color: #000000;
+        }
+        p {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            color: #000000;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .intro {
+        margin-bottom: 64px;
+        &__bg {
+            position: relative;
+            height: 420px;
+            .img-item {
+                bottom: 0;
+            }
+            .img-person {
+                width: 90%;
+                img {
+                    width: 100%;
+                }
+            }
+            .img-build {
+                background-size: cover;
+            }
+        }
+        &__content {
+            margin-top: 90px;
+            h1 {
+                font-family: SVN-Product Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 36px;
+                color: #000000;
+                margin: 4px 0px;
+            }
+        }
+    }
+}

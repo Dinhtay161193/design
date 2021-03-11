@@ -1,0 +1,169 @@
+.reviews {
+    display: flex;
+    margin-top: 132px;
+    &__cart {
+        margin-right: 152px;
+        img {
+            width: 478px;
+        }
+    }
+    &__comment {
+        margin-top: 172px;
+        h1 {
+            font-family: SVN-Product Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 72px;
+            /* identical to box height, or 150% */
+            color: #000000;
+            margin-bottom: 4px;
+        }
+        p {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            color: #000000;
+            margin-bottom: 0;
+        }
+        &__person {
+            display: flex;
+            align-items: center;
+            margin-top: 40px;
+            .person--inbook {
+                padding-top: 40px;
+                img {
+                    margin-bottom: 24px;
+                }
+            }
+            .person--next {
+                margin-left: 32px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .reviews {
+        margin-top: 5px;
+        display: block;
+        &__comment {
+            text-align: center;
+            margin-top: 94px;
+            .person--inbook {
+                margin: 0 auto;
+            }
+            .person--next {
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .reviews {
+        margin-top: -60px;
+        &__cart {
+            margin-right: 0;
+            img {
+                width: 260px;
+                height: 306px;
+                margin-right: 0;
+            }
+        }
+        &__comment {
+            text-align: left;
+            margin-left: 5%;
+            margin-top: 32px;
+            h1 {
+                font-family: SVN-Product Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 36px;
+            }
+            p {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+                color: #000000;
+            }
+            &__person {
+                display: block;
+                .person--inbook {
+                    padding: 0;
+                }
+                .person--inbook {
+                    img {
+                        width: 312px;
+                        height: 101px;
+                    }
+                }
+                .person--next {
+                    img {
+                        transform: rotate(90deg);
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .reviews {
+        &__cart {
+            margin-right: 0;
+            img {
+                width: 260px;
+                height: 306px;
+                margin-right: 0;
+            }
+        }
+        &__comment {
+            text-align: left;
+            margin-left: 5%;
+            margin-top: 32px;
+            h1 {
+                font-family: SVN-Product Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 36px;
+            }
+            p {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+                color: #000000;
+            }
+            &__person {
+                display: block;
+                .person--inbook {
+                    padding: 0;
+                }
+                .person--inbook {
+                    img {
+                        width: 312px;
+                        height: 101px;
+                    }
+                }
+                .person--next {
+                    img {
+                        transform: rotate(90deg);
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

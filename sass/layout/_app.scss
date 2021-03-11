@@ -1,0 +1,45 @@
+.app {
+    margin-top: 115px;
+    &__title {
+        text-align: center;
+        h1 {
+            font-family: SVN-Product Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 72px;
+            /* identical to box height, or 150% */
+            color: #000000;
+            margin-bottom: 4px;
+        }
+        p {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            text-align: center;
+            color: #000000;
+            margin-bottom: 0;
+        }
+        img {
+            margin: 0 auto;
+            margin-top: 16px;
+            margin-bottom: 48px;
+        }
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .app {
+        margin-top: 50px;
+        &__title {
+            .swiper-container {
+                img {
+                    width: 147px;
+                }
+            }
+        }
+    }
+}

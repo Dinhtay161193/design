@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e5e5e5;
+    ul {
+        li {
+            list-style: none;
+        }
+    }
+}
+
+.owl-carousel {
+    .owl-item {
+        ul {
+            li {
+                img {
+                    display: inline !important;
+                    width: 16px !important;
+                }
+            }
+        }
+    }
+}
+
+
+/* .owl-carousel {
+    .owl-item {
+        img {
+            display: block !important;
+            width: 100% !important;
+        }
+    }
+} */
