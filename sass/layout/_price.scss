@@ -121,6 +121,13 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .price {
+        margin-bottom: 50px;
+        height: 700px;
+    }
+}
+
 @media screen and (max-width: 415px) {
     .price {
         h1 {

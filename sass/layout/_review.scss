@@ -63,6 +63,14 @@
     }
 }
 
+@media screen and (max-width: 1015px) {
+    .reviews {
+        &__cart {
+            margin-top: 100px;
+        }
+    }
+}
+
 @media screen and (max-width: 415px) {
     .reviews {
         margin-top: -60px;
