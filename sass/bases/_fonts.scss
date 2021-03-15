@@ -78,14 +78,13 @@
     src: url(../../fonts/roboto/Roboto-MediumItalic.ttf) format("truetype");
 }
 
-
-/* @font-face {
-  font-family: SVN-Product Sans;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(../../fonts/roboto/Product-Sans-Bold.ttf) format("truetype");
-} */
+@font-face {
+    font-family: SVN-Product Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../../fonts/SVN-Product/Product-Sans-Bold.ttf) format("truetype");
+}
 
 
 /* @font-face {
@@ -93,5 +92,5 @@
     font-style: italic;
     font-weight: 700;
     font-display: swap;
-    src: url(../../fonts/roboto/Product-Sans-Italic.ttf) format("truetype");
+    src: url(../../fonts/SVN-Product/Product-Sans-Bold.ttf) format("truetype");
 } */

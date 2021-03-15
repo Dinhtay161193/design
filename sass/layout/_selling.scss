@@ -1,14 +1,13 @@
 .selling {
     height: 580px;
+    margin-bottom: 132px;
     h1 {
         font-family: SVN-Product Sans;
         font-style: normal;
         font-weight: bold;
         font-size: 48px;
         line-height: 72px;
-        /* identical to box height, or 150% */
         color: #000000;
-        margin-top: 94px;
         margin-bottom: 4px;
     }
     p {
@@ -49,6 +48,9 @@
                         display: block;
                     }
                 }
+            }
+            p {
+                white-space: nowrap;
             }
             .bag1 {
                 width: 100%;
@@ -119,6 +121,20 @@
     }
 }
 
+@media screen and (max-width: 1400px) {
+    .selling {
+        height: 600px;
+        margin-bottom: 132px;
+        &__content {
+            &__item {
+                p {
+                    white-space: normal;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .selling {
         margin-bottom: 50px;
@@ -128,6 +144,8 @@
 
 @media screen and (max-width: 415px) {
     .selling {
+        height: 505px;
+        margin-bottom: 124px;
         h1 {
             font-family: SVN-Product Sans;
             font-style: normal;
@@ -147,8 +165,7 @@
 
 @media screen and (max-width: 376px) {
     .selling {
-        margin-top: -160px;
-        height: 500px;
+        height: 505px;
         h1 {
             margin-top: 0;
         }

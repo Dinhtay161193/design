@@ -1,5 +1,6 @@
 .hot {
     height: 580px;
+    margin-bottom: 130px;
     h1 {
         font-family: SVN-Product Sans;
         font-style: normal;
@@ -8,7 +9,6 @@
         line-height: 72px;
         /* identical to box height, or 150% */
         color: #000000;
-        margin-top: 94px;
         margin-bottom: 4px;
     }
     p {
@@ -120,6 +120,20 @@
     }
 }
 
+@media screen and (max-width: 1400px) {
+    .hot {
+        height: 600px;
+        margin-bottom: 130px;
+        &__content {
+            &__item {
+                p {
+                    white-space: normal;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .hot {
         margin-bottom: 50px;
@@ -149,12 +163,15 @@
 
 @media screen and (max-width: 415px) {
     .hot {
+        height: 505px;
+        margin-bottom: 124px;
         h1 {
             margin-top: 0;
             text-align: center;
             color: #000000;
             font-size: 24px;
             flex: none;
+            line-height: 36px;
             order: 0;
             flex-grow: 0;
             margin: 4px 0px;

@@ -1,14 +1,14 @@
 .price {
-    height: 580px;
+    height: 590px;
+    margin-bottom: 130px;
     h1 {
         font-family: SVN-Product Sans;
         font-style: normal;
         font-weight: bold;
         font-size: 48px;
         line-height: 72px;
-        /* identical to box height, or 150% */
+        white-space: normal;
         color: #000000;
-        margin-top: 94px;
         margin-bottom: 4px;
     }
     p {
@@ -121,6 +121,20 @@
     }
 }
 
+@media screen and (max-width: 1400px) {
+    .price {
+        height: 600px;
+        margin-bottom: 130px;
+        &__content {
+            &__item {
+                p {
+                    white-space: normal;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .price {
         margin-bottom: 50px;
@@ -130,6 +144,8 @@
 
 @media screen and (max-width: 415px) {
     .price {
+        height: 505px;
+        margin-bottom: 124px;
         h1 {
             font-family: SVN-Product Sans;
             font-style: normal;

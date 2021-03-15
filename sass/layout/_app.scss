@@ -34,6 +34,20 @@
 @media screen and (max-width: 415px) {
     .app {
         margin-top: 50px;
+        h1 {
+            font-family: SVN-Product Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 36px;
+            /* identical to box height, or 150% */
+            text-align: center;
+            color: #000000;
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
         &__title {
             .swiper-container {
                 img {
