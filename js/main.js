@@ -1,25 +1,29 @@
 $(".owl-carousel").owlCarousel({
     loop: true,
-    margin: 10,
+
     nav: false,
     responsive: {
         0: {
             items: 2,
+            margin: 8,
         },
         600: {
             items: 2,
+            margin: 30,
         },
         1000: {
             items: 3,
+            margin: 30,
         },
         1025: {
             items: 4,
+            margin: 30,
         },
     },
 });
 var swiper = new Swiper(".swiper-container", {
     slidesPerView: 2,
-    spaceBetween: 10,
+    spaceBetween: 30,
     centeredSlides: true,
     loop: true,
     grabCursor: true,

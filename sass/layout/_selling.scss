@@ -49,11 +49,18 @@
                     }
                 }
             }
-            p {
-                white-space: nowrap;
-            }
             .bag1 {
                 width: 100%;
+            }
+            p {
+                font-family: SVN-Product Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+                margin-bottom: 4px;
+                margin-top: 12px;
             }
             .selling-bag {
                 font-family: SVN-Product Sans;
@@ -160,6 +167,23 @@
             flex-grow: 0;
             margin: 4px 0px;
         }
+        &__content {
+            &__item {
+                .item--info {
+                    .item--btn {
+                        .btn {
+                            width: 116px;
+                            height: 40px;
+                            font-family: SVN-Product Sans;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -175,5 +199,22 @@
 @media screen and (max-width: 320px) {
     .selling {
         height: 570px;
+        &__content {
+            &__item {
+                .item--info {
+                    .item--btn {
+                        .btn {
+                            width: 90px;
+                            height: 40px;
+                            font-family: SVN-Product Sans;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
